@@ -1,0 +1,9 @@
+
+> cloudsync@0.1.0 start
+> next start -p 3002
+
+▲ Next.js 16.4.6
+- Local:         http://localhost:3002
+- Network:       http://10.49.55.15:3002
+✓ Ready in 327ms
+✓ Running next.config.ts took 59ms
