@@ -12,6 +12,7 @@ import {
 import { Logo } from "@/components/ui/Logo";
 import { ButtonLink } from "@/components/ui/Button";
 import { FileGlyph } from "@/components/ui/FileGlyph";
+import { Banner } from "@/components/ui/Banner";
 import { SHOWCASE_FILES } from "@/lib/cloud/seed";
 import { formatBytes } from "@/lib/format";
 
@@ -74,6 +75,7 @@ function FileShelf() {
 export default function LandingPage() {
   return (
     <>
+      <Banner href="/" className="mb-8" />
       <header className="sticky top-0 z-40">
         <div className="glass border-b border-line">
           <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-5 sm:px-8">
