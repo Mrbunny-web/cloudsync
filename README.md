@@ -1,5 +1,5 @@
 ::: {align="center"}
-`<img src="docs/images/cloudsync-banner.svg" alt="CloudSync — Personal cloud storage" width="100%" />`{=html}
+`<img src="docs/images/cloudsync-banner.jpg" alt="CloudSync — Personal cloud storage" width="100%" />`{=html}
 
 ```{=html}
 <p>
