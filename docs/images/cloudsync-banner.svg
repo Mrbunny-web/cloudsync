@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+<title id="title">CloudSync</title>
+<desc id="desc">A modern personal cloud storage workspace.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#101827"/>
+    <stop offset="1" stop-color="#172d3c"/>
+  </linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#65e5c1"/>
+    <stop offset="1" stop-color="#57a6ff"/>
+  </linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="18"/></filter>
+</defs>
+<rect width="1200" height="360" rx="28" fill="url(#bg)"/>
+<circle cx="1000" cy="80" r="150" fill="#4bbfa9" opacity=".13" filter="url(#glow)"/>
+<circle cx="1080" cy="300" r="130" fill="#579bff" opacity=".14" filter="url(#glow)"/>
+<g transform="translate(92 104)">
+  <path d="M44 118c-25 0-44-19-44-43 0-22 16-40 37-43C46 8 68-4 92 1c25 4 43 24 44 49 20 3 35 20 35 41 0 23-18 42-42 42H44Z" fill="none" stroke="url(#accent)" stroke-width="9" stroke-linejoin="round"/>
+  <path d="M88 57v69m-27-27 27 27 27-27" fill="none" stroke="#e8fbf7" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="330" y="160" fill="#f4f8fb" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="76" font-weight="700" letter-spacing="-2">CloudSync</text>
+<text x="334" y="214" fill="#b7c8d4" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="27">A private home for your files.</text>
+<rect x="334" y="250" width="186" height="4" rx="2" fill="url(#accent)"/>
+<text x="334" y="292" fill="#8fa7b8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" letter-spacing="3">ORGANIZE · ACCESS · MANAGE</text>
+</svg>
