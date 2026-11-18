@@ -28,3 +28,5 @@
  GET /starred 200 in 74ms (next.js: 11ms, application-code: 63ms)
  GET /shared 200 in 66ms (next.js: 11ms, application-code: 54ms)
  GET /dashboard 200 in 57ms (next.js: 3ms, application-code: 54ms)
+✓ Compiled in 99ms
+ GET / 200 in 87ms (next.js: 2.0ms, application-code: 85ms)
