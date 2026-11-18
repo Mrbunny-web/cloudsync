@@ -1,21 +1,16 @@
 # CloudSync
 
-**A private home for photos, documents and everything in between.**
-
-**Built with Next.js 16, React 19, Tailwind CSS 4, and Supabase.**
+A private home for photos, documents and everything in between. Built with **Next.js 16**, **React 19**, **Tailwind CSS 4** and **Supabase** — with a zero-config local mode so the entire app runs on localhost immediately.
 
 <p align="center">
   <a href="https://vercel.com">
-    <img src="https://vercel.com/opengraph-card.vercel.dev.svg" alt="Deploy to Vercel" height="60">
-  </a>
-  <a href="https://supabase.com">
-    <img src="https://supabase.com/images/logo.svg" alt="Supabase Logo" height="60">
+    <img src="https://vercel.com/opengraph-card.vercel.dev.svg" alt="Deploy to Vercel">
   </a>
 </p>
 
 ---
 
-## 📦 Quick Start
+## 🚀 Quick Start
 
 ```bash
 npm install
@@ -24,19 +19,18 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000).
 
-The application starts in **local mode** by default — no environment variables required.
-All accounts, files, folders, stars, and trash persist in `localStorage` and IndexedDB.
+The application starts in **local mode** by default — no environment variables required. Accounts, files, folders, stars and trash persist in `localStorage` and IndexedDB. Everything survives a reload.
 
 ---
 
-## 🌐 Deployment
+## 📦 Deployment
 
 ### Vercel (Recommended)
 
-Deploy to [Vercel](https://vercel.com/new) from this repository.
+Deploy to [Vercel](https://vercel.com/new) from this repository. Vercel automatically builds with Next.js 16.
 
-- **Local mode (no config):** Leave `NEXT_PUBLIC_SUPABASE_URL` and `NEXT_PUBLIC_SUPABASE_ANON_KEY` blank.
-- **Supabase mode:** Add the following environment variables in the Vercel dashboard:
+- **Local mode (no config needed):** Leave `NEXT_PUBLIC_SUPABASE_URL` and `NEXT_PUBLIC_SUPABASE_ANON_KEY` blank in the Vercel dashboard. The app runs fully in local mode.
+- **Production Supabase mode:** Add both variables in the Vercel dashboard:
 
   ```text
   NEXT_PUBLIC_SUPABASE_URL=https://YOUR_PROJECT.supabase.co
@@ -61,7 +55,7 @@ npm run dev
 ```
 
 - Open [http://localhost:3000](http://localhost:3000).
-- **Local mode** starts automatically.
+- **Local mode** starts automatically (no env vars needed).
 - All features work: authentication, file uploads, stars, trash, search, sort, grid/list view.
 - Data survives page reloads (stored in browser `localStorage` and IndexedDB).
 
